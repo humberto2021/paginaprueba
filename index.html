@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Página de la Parroquia</title>
+    <style>
+        /* Estilos generales para la página */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4; /* Fondo gris suave */
+        }
+
+        /* Borde verde grueso en la parte superior */
+        header {
+            border-top: 30px solid green; /* Borde verde de 30px */
+            background-color: #e0f7fa;    /* Fondo azul claro */
+            padding: 15px 0;               /* Espaciado interior */
+            text-align: center;            /* Centrar el texto */
+        }
+
+        /* Estilo para el título dentro del header */
+        header h1 {
+            margin: 0;
+            font-size: 2.2em; /* Tamaño de fuente relativo */
+            color: #333; /* Color del texto */
+        }
+
+        header h2 {
+            margin-top: 5px;
+            font-size: 1.5em; /* Tamaño del subtítulo */
+            color: #555; /* Color gris para el subtítulo */
+        }
+
+        header h3 {
+            margin-top: 5px;
+            font-size: 1.2em; /* Tamaño del tercer nivel */
+            color: #777; /* Color más suave para ubicación */
+        }
+
+        /* Estilo para el contenido principal */
+        .content {
+            padding: 20px;
+            text-align: center;
+        }
+
+        .content h2 {
+            font-size: 1.8em; /* Tamaño de la fuente del contenido */
+            color: #333;
+        }
+
+        .content p {
+            font-size: 1.1em;
+            line-height: 1.6;
+            color: #666; /* Color gris oscuro */
+        }
+
+        /* Estilo para los enlaces */
+        a {
+            color: green;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        a:hover {
+            text-decoration: underline;
+        }
+
+        /* Media queries para dispositivos móviles */
+        @media screen and (max-width: 600px) {
+            /* Ajustar el borde en pantallas pequeñas */
+            header {
+                border-top: 15px solid green; /* Reducir el borde en móviles */
+                padding: 10px 0; /* Reducir padding en el header */
+            }
+
+            header h1 {
+                font-size: 1.8em; /* Reducir el tamaño del título */
+            }
+
+            header h2 {
+                font-size: 1.3em; /* Reducir el tamaño del subtítulo */
+            }
+
+            header h3 {
+                font-size: 1em; /* Reducir el tamaño del tercer título */
+            }
+
+            /* Reducir tamaño de fuentes en el contenido */
+            .content h2 {
+                font-size: 1.5em; /* Ajustar el tamaño del contenido */
+            }
+
+            .content p {
+                font-size: 1em; /* Reducir tamaño de texto en párrafos */
+            }
+
+            /* Asegurar que los enlaces no estén demasiado grandes */
+            a {
+                font-size: 1em;
+            }
+        }
+
+        /* Media queries para pantallas medianas (tabletas) */
+        @media screen and (max-width: 768px) {
+            /* Ajustar padding en tabletas */
+            header {
+                padding: 12px 0;
+            }
+
+            header h1 {
+                font-size: 2em;
+            }
+
+            .content h2 {
+                font-size: 1.6em;
+            }
+
+            .content p {
+                font-size: 1.2em;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Header con el borde verde -->
+    <header>
+        <h1>Santuario de Nuestra Señora de Guadalupe</h1>
+        <h2>Parroquia San Judas Tadeo</h2>
+        <h3>Condega, Estelí, Nicaragua</h3>
+    </header>
+
+    <!-- Contenido principal -->
+    <div class="content">
+        <h2>Bienvenidos a nuestra página web</h2>
+        <p>En este espacio encontrarás información sobre nuestras actividades, horarios de misas, eventos especiales y mucho más.</p>
+        <p>Nos alegra que formes parte de nuestra comunidad.</p>
+
+        <!-- Ejemplo de enlace -->
+        <p><a href="#">Descubre nuestras actividades</a></p>
+    </div>
+
+</body>
+</html>
